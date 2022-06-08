@@ -18,6 +18,7 @@ datatot = pd.DataFrame()
 
 datatot
 
+# loop to store summary data from each stock into the main dataframe
 for i in stock_list:
     stock_name = str(i)
     print(stock_name)
